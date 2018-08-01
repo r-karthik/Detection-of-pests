@@ -9,9 +9,9 @@
     2. [Part I : Object Detection](#p1)
     3. [Part II : Attribute Tagging](#p2)
     4. [Part III : Recommendation based on Frequency](#p3)
-4. [Future Direction and Ideas](#future)
-5. [Final Thoughts](#thoughts) 
-6. [Sources/Acknowledgements](#sources)
+3. [Future Direction and Ideas](#future)
+4. [Final Thoughts](#thoughts) 
+5. [Sources/Acknowledgements](#sources)
 
 
 ## References
