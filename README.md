@@ -4,7 +4,7 @@
 ## Table of Contents
 1. [Overview](#overview)
     1. [Datasets Used](#dataset)
-3. [Workflow](#workflow)
+2. [Workflow](#workflow)
     1. [Complete Workflow](#complete)
     2. [Part I : Object Detection](#p1)
     3. [Part II : Attribute Tagging](#p2)
