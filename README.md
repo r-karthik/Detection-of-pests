@@ -1,6 +1,19 @@
 # Detection-of-pests
 ---
 
+## Table of Contents
+1. [Overview](#overview)
+    1. [Datasets Used](#dataset)
+3. [Workflow](#workflow)
+    1. [Complete Workflow](#complete)
+    2. [Part I : Object Detection](#p1)
+    3. [Part II : Attribute Tagging](#p2)
+    4. [Part III : Recommendation based on Frequency](#p3)
+4. [Future Direction and Ideas](#future)
+5. [Final Thoughts](#thoughts) 
+6. [Sources/Acknowledgements](#sources)
+
+
 ## References
 
 [1. https://ieeexplore.ieee.org/document/7155951/](https://ieeexplore.ieee.org/document/7155951/)
