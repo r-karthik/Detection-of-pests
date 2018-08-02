@@ -24,8 +24,8 @@ For this project, the datasets are images: you can download images in 2 ways
     
     
 ## <a id="prerequsite"> Pre-requsite
-* Python 3.5+ [Link] (https://www.python.org/downloads/)
-* Tensorflow 1.8.0 [Link] (https://www.tensorflow.org/install/)
+* Python 3.5+ [Link](https://www.python.org/downloads/)
+* Tensorflow 1.8.0 [Link](https://www.tensorflow.org/install/)
 * Docker Toolbar
 * Pycharm
 * Android Studio
