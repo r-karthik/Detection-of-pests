@@ -22,9 +22,9 @@ For this project, the datasets are images: you can download images in 2 ways
 
 ## <a id="workflow"> Workflow
     
+    
 ### <a id="complete"> Complete Workflow
-
-
+    
 
 ## References
 
