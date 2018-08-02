@@ -19,7 +19,11 @@ For this project, the datasets are images: you can download images in 2 ways
 1. Fatkun batch Download (chrome Extension)
 2. FFmpeg - Command line tool (extracts images from videos)
 
+
+## <a id="workflow"> Workflow
     
+### <a id="complete"> Complete Workflow
+
 
 
 ## References
