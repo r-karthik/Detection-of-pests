@@ -11,7 +11,12 @@
 5. [Sources/Acknowledgements](#sources)
 
 ## <a id="overview"> Overview/Motivation
-    Agriculture is a most important and ancient occupation. Utmost care of food production is necessary. Pests like virus, fungus and bacteria causes infection to plants with loss in quality and quantity production. There is large amount of loss of farmer in production. Hence proper care of plants is necessary for same. **Mere observations by eyes to detect diseases are not accurate.** Image processing provides more efficient ways to detect diseases caused by fungus, bacteria or virus on plants. Excess use also damages plants nutrient quality. It results in huge loss of production to farmer. Hence use of image processing techniques to detect and classify diseases in agricultural applications is helpful.
+    Agriculture is a most important and ancient occupation. Utmost care of food production is necessary. Pests like virus, fungus and
+    bacteria causes infection to plants with loss in quality and quantity production. There is large amount of loss of farmer in
+    production. Hence proper care of plants is necessary for same. **Mere observations by eyes to detect diseases are not accurate.**
+    Image processing provides more efficient ways to detect diseases caused by fungus, bacteria or virus on plants. Excess use also
+    damages plants nutrient quality. It results in huge loss of production to farmer. Hence use of image processing techniques to 
+    detect and classify diseases in agricultural applications is helpful.
 
     
 
