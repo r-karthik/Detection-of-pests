@@ -25,11 +25,11 @@ For this project, the datasets are images: you can download images in 2 ways
     
 ## <a id="prerequsite"> Pre-requsite
     
-    *Python 3.5+
-    *Tensorflow 1.8.0
-    *Docker Toolbar
-    *Pycharm
-    *Android Studio
+    * Python 3.5+
+    * Tensorflow 1.8.0
+    * Docker Toolbar
+    * Pycharm
+    * Android Studio
     
     
 ### <a id="complete"> Complete Workflow
