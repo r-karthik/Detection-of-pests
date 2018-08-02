@@ -5,6 +5,7 @@
     1. [Datasets Used](#dataset)
 2. [Workflow](#workflow)
     1. [Complete Workflow](#complete)
+    2. [Pre-Pequsites](#prerequsite)
 3. [Future Direction and Ideas](#future)
 4. [Final Thoughts](#thoughts) 
 5. [Sources/Acknowledgements](#sources)
@@ -20,6 +21,15 @@ For this project, the datasets are images: you can download images in 2 ways
 
 
 ## <a id="workflow"> Workflow
+    
+    
+## <a id="prerequsite"> Pre-requsite
+    
+    *Python 3.5+
+    *Tensorflow 1.8.0
+    *Docker Toolbar
+    *Pycharm
+    *Android Studio
     
     
 ### <a id="complete"> Complete Workflow
