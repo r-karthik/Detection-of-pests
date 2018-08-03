@@ -57,7 +57,7 @@ model architecture.
 
 ### <a id="complete"> Complete Workflow
    
-![image](https://github.com/r-karthik/images/blob/master/detection_of_pests/flow1.JPG)
+![image](https://github.com/r-karthik/images/blob/master/detection_of_pests/flowone.JPG)
 
 **Why to use pre-trained model when we can build new one??**
 *  Computation: Moderate
@@ -72,7 +72,9 @@ model architecture.
 2. Place all your Datasets in a folder & The classification script uses the folder names as label names, and the images
    inside each folder should be pictures that correspond to that label. Collect as many pictures of each label as you can
    and try it out!
-3. Run the training.py in docker with the following command & As it trains, you can start TensorBoard in background. you'll
+3. Run the retrain.py in docker with the following command. For training you can download the 
+   [Datasets](http://download.tensorflow.org/example_images/flower_photos.tgz)
+   & extract them to tf_files/training_dataset folder. & As it trains, you can start TensorBoard in background. you'll
     see a series of step outputs, each one showing 
    training accuracy, validation accuracy, and the cross entropy:
     *  The **training accuracy** shows the percentage of the images used in the current training batch that were labeled 
