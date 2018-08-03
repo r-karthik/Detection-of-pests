@@ -46,7 +46,7 @@ and with using less than 25 million parameters. Below is a visualization of the
 model architecture.
 
 
-![image](https://github.com/r-karthik/myfirstproject/blob/master/images/1_L8NWufrce1Bt9aDIN7Tu4A.png)
+![image](https://github.com/r-karthik/images/blob/master/detection_of_pests/layers.png)
     
     
 ## <a id="prerequsite"> Pre-Requsite
@@ -57,7 +57,7 @@ model architecture.
 
 ### <a id="complete"> Complete Workflow
    
-![image](https://github.com/r-karthik/myfirstproject/blob/master/images/flow1.JPG)
+![image](https://github.com/r-karthik/images/blob/master/detection_of_pests/flow1.JPG)
 
 **Why to use pre-trained model when we can build new one??**
 *  Computation: Moderate
@@ -65,7 +65,7 @@ model architecture.
 *  Training Time: Minutes to Hours
 *  Accuracy: Good Depends on the pre-trained CNN model.
 
-![image](https://github.com/r-karthik/myfirstproject/blob/master/images/transferlearningworkflow.png)
+![image](https://github.com/r-karthik/images/blob/master/detection_of_pests/transferlearningworkflow.png)
     
 ### <a id="steps"> Steps to Follow
 1. Install python 3.5 or above, tensorflow & Docker toolbar.
@@ -90,13 +90,13 @@ model architecture.
         #TensorBoard
         tensorboard --logdir tf_files/training_summaries &
     ```
-    ![image](https://preview.ibb.co/cstWke/accu.png)
+    ![image](https://github.com/r-karthik/images/blob/master/detection_of_pests/accu.png)
 4. when the training is completed the output is retrained_graph.pb & retrained_labels.txt you can test the model using the graph.
     ```shell
     #Testing
     python -m scripts.label_image --graph=tf_files/retrained_graph.pb --image=tf_files/testing_dataset/image_name.jpg
     ```    
-    ![image](https://github.com/r-karthik/myfirstproject/blob/master/images/Capture2.JPG)
+    ![image](https://github.com/r-karthik/images/blob/master/detection_of_pests/Capture2.JPG)
 5. If you want to run the model on android device to predict you have to opimize the retrained_graph.pb file so that the model can be compressible. Run the following commands which can compress the model upto 70%.
     ```shell
     #optimized graph
