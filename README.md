@@ -3,12 +3,12 @@ Asian University Machine Learning Camp Jeju 2018
 
 ## Table of Contents
 1. [Overview](#overview)
-    1. [Datasets Used](#dataset)
+    *  [Datasets Used](#dataset)
 2. [Workflow](#workflow)
-    1. [Introduction](#introduction)
-    2. [Pre-requsites](#prerequsite)
-    3. [Complete Workflow](#complete)
-    4. [Steps to Follow](#steps)
+    *  [Introduction](#introduction)
+    *  [Pre-requsites](#prerequsite)
+    *  [Complete Workflow](#complete)
+    *  [Steps to Follow](#steps)
 3. [Future Direction and Ideas](#future)
 4. [References](#ref)
 
@@ -44,17 +44,28 @@ This network achieves 21.2% top-1 and 5.6% top-5 error for single frame
 evaluation with a computational cost of 5 billion multiply-adds per inference
 and with using less than 25 million parameters. Below is a visualization of the
 model architecture.
-![image](https://github.com/tensorflow/models/blob/master/research/inception/g3doc/inception_v3_architecture.png)
+
+
+![image](https://github.com/r-karthik/myfirstproject/blob/master/images/1_L8NWufrce1Bt9aDIN7Tu4A.png)
     
     
 ## <a id="prerequsite"> Pre-Requsite
-* Python 3.5+
-* Tensorflow 1.8.0
-* Docker Toolbar
-* PyCharm
-* Android Studio
+* [Python 3.5+](https://www.python.org/downloads/)
+* [Tensorflow](https://www.tensorflow.org/install/)
+* [Docker Toolbox](https://docs.docker.com/toolbox/)
+* [Android Studio](https://developer.android.com/studio/)
 
 ### <a id="complete"> Complete Workflow
+   
+![image](https://github.com/r-karthik/myfirstproject/blob/master/images/flow1.JPG)
+
+**Why to use pre-trained model when we can build new one??**
+*  Computation: Moderate
+*  Training: Faster
+*  Training Time: Minutes to Hours
+*  Accuracy: Good Depends on the pre-trained CNN model.
+
+![image](https://github.com/r-karthik/myfirstproject/blob/master/images/transferlearningworkflow.png)
     
 ### <a id="steps"> Steps to Follow
 1. Install python 3.5 or above, tensorflow & Docker toolbar.
