@@ -65,6 +65,8 @@ model architecture.
 *  Training Time: Minutes to Hours
 *  Accuracy: Good Depends on the pre-trained CNN model.
 
+**How does the pre-trained network works?**
+
 ![image](https://github.com/r-karthik/images/blob/master/detection_of_pests/transferlearningworkflow.png)
     
 ### <a id="steps"> Steps to Follow
