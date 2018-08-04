@@ -74,9 +74,14 @@ model architecture.
 2. Place all your Datasets in a folder & The classification script uses the folder names as label names, and the images
    inside each folder should be pictures that correspond to that label. Collect as many pictures of each label as you can
    and try it out!
-3. Run the retrain.py in docker with the following command. For training you can download the 
+3. Clone the repository & navigate to the directory.
+   ```shell
+   git clone https://github.com/r-karthik/Detection-of-pests.git
+   cd Detection-of-pests
+   ```
+4. Run the retrain.py in docker with the following command. For training you can download the flower 
    [Datasets](http://download.tensorflow.org/example_images/flower_photos.tgz)
-   & extract them to tf_files/training_dataset folder. & As it trains, you can start TensorBoard in background. you'll
+   & extract them to **tf_files/training_dataset** folder. & As it trains, you can start TensorBoard in background. you'll
     see a series of step outputs, each one showing 
    training accuracy, validation accuracy, and the cross entropy:
     *  The **training accuracy** shows the percentage of the images used in the current training batch that were labeled 
@@ -95,23 +100,25 @@ model architecture.
         tensorboard --logdir tf_files/training_summaries &
     ```
     ![image](https://github.com/r-karthik/images/blob/master/detection_of_pests/accu.png)
-4. when the training is completed the output is retrained_graph.pb & retrained_labels.txt you can test the model using the graph.
+5. when the training is completed the output is retrained_graph.pb & retrained_labels.txt you can test the model using the graph.
     ```shell
     #Testing
     python -m scripts.label_image --graph=tf_files/retrained_graph.pb --image=tf_files/testing_dataset/image_name.jpg
     ```    
     ![image](https://github.com/r-karthik/images/blob/master/detection_of_pests/Capture2.JPG)
-5. If you want to run the model on android device to predict you have to opimize the retrained_graph.pb file so that the model can be compressible. Run the following commands which can compress the model upto 70%.
+6. If you want to run the model to predict on android device you have to opimize the retrained_graph.pb file so that the model can be compressible. Run the following commands which can compress the model upto 70%.
     ```shell
     #optimized graph
      python -m tensorflow.python.tools.optimize_for_inference --input=tf_files/retrained_graph.pb --output=tf_files/optimized_graph.pb --input_names="input" --output_names="final_result"
     #rounded graph
     python -m scripts.quantize_graph --input=tf_files/optimized_graph.pb --output=tf_files/graph.pb --output_node_names=final_result --mode=weights_rounded
     ```
-6. Paste the graph.pb & labels.txt in android/tfmobile/assets & open android studio choose existing project tfmobile. let the Gradle build finish & run your app. Now you can use your andoid mobile to classify things my using the App.
+7. Paste the graph.pb & labels.txt in **android/tfmobile/assets** & open android studio choose existing project tfmobile. let the Gradle build finish & run your app. Now you can use your andoid mobile to classify things my using the App.
     ![image](https://image.ibb.co/burW0e/ss3.png)                ![image](https://image.ibb.co/j6XAtz/456.png)
 
 ## <a id="future"> Future Direction and Ideas
+
+
 ## <a id="ref"> References
 
 [1. https://ieeexplore.ieee.org/document/7155951/](https://ieeexplore.ieee.org/document/7155951/)
