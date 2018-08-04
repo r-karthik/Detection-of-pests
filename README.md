@@ -114,7 +114,8 @@ model architecture.
     python -m scripts.quantize_graph --input=tf_files/optimized_graph.pb --output=tf_files/graph.pb --output_node_names=final_result --mode=weights_rounded
     ```
 7. Paste the graph.pb & labels.txt in **android/tfmobile/assets** & open android studio choose existing project tfmobile. let the Gradle build finish & run your app. Now you can use your andoid mobile to classify things my using the App.
-    ![image](https://image.ibb.co/burW0e/ss3.png)                ![image](https://image.ibb.co/j6XAtz/456.png)
+
+![image](https://github.com/r-karthik/images/blob/master/detection_of_pests/sb.JPG)
 
 ## <a id="future"> Future Direction and Ideas
 
