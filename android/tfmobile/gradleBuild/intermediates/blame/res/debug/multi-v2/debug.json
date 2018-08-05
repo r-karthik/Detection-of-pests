@@ -1,0 +1,243 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\HP\\tensorflow-for-poets-2\\android\\tfmobile\\gradleBuild\\intermediates\\res\\merged\\debug\\values-v14_values-v14.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\HP\\tensorflow-for-poets-2\\android\\tfmobile\\res\\values-v14\\styles.xml",
+                    "from": {
+                        "startLines": "7",
+                        "startColumns": "2",
+                        "startOffsets": "221",
+                        "endLines": "9",
+                        "endColumns": "10",
+                        "endOffsets": "363"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "10",
+                        "endOffsets": "195"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\HP\\tensorflow-for-poets-2\\android\\tfmobile\\gradleBuild\\intermediates\\res\\merged\\debug\\values-sw600dp-v13_values-sw600dp-v13.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\HP\\tensorflow-for-poets-2\\android\\tfmobile\\res\\values-sw600dp\\template-styles.xml",
+                    "from": {
+                        "startLines": "18",
+                        "startColumns": "4",
+                        "startOffsets": "652",
+                        "endLines": "22",
+                        "endColumns": "12",
+                        "endOffsets": "896"
+                    },
+                    "to": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "191",
+                        "endLines": "8",
+                        "endColumns": "12",
+                        "endOffsets": "431"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\HP\\tensorflow-for-poets-2\\android\\tfmobile\\res\\values-sw600dp\\template-dimens.xml",
+                    "from": {
+                        "startLines": "20,21",
+                        "startColumns": "4,4",
+                        "startOffsets": "689,758",
+                        "endColumns": "67,67",
+                        "endOffsets": "752,821"
+                    },
+                    "to": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,123",
+                        "endColumns": "67,67",
+                        "endOffsets": "118,186"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\HP\\tensorflow-for-poets-2\\android\\tfmobile\\gradleBuild\\intermediates\\res\\merged\\debug\\values-v21_values-v21.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\HP\\tensorflow-for-poets-2\\android\\tfmobile\\res\\values-v21\\base-template-styles.xml",
+                    "from": {
+                        "startLines": "20",
+                        "startColumns": "4",
+                        "startOffsets": "710",
+                        "endLines": "21",
+                        "endColumns": "12",
+                        "endOffsets": "787"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "3",
+                        "endColumns": "12",
+                        "endOffsets": "131"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\HP\\tensorflow-for-poets-2\\android\\tfmobile\\gradleBuild\\intermediates\\res\\merged\\debug\\values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\HP\\tensorflow-for-poets-2\\android\\tfmobile\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "18,16,17",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "810,674,725",
+                        "endColumns": "82,49,83",
+                        "endOffsets": "888,719,804"
+                    },
+                    "to": {
+                        "startLines": "15,16,17",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "895,978,1028",
+                        "endColumns": "82,49,83",
+                        "endOffsets": "973,1023,1107"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\HP\\tensorflow-for-poets-2\\android\\tfmobile\\res\\values\\base-strings.xml",
+                    "from": {
+                        "startLines": "19,20,21,18",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "732,802,865,678",
+                        "endColumns": "68,61,60,52",
+                        "endOffsets": "796,859,921,726"
+                    },
+                    "to": {
+                        "startLines": "11,12,13,14",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "650,719,781,842",
+                        "endColumns": "68,61,60,52",
+                        "endOffsets": "714,776,837,890"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\HP\\tensorflow-for-poets-2\\android\\tfmobile\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "16",
+                        "startColumns": "4",
+                        "startOffsets": "674",
+                        "endColumns": "95",
+                        "endOffsets": "765"
+                    },
+                    "to": {
+                        "startLines": "19",
+                        "startColumns": "4",
+                        "startOffsets": "1163",
+                        "endColumns": "94",
+                        "endOffsets": "1253"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\HP\\tensorflow-for-poets-2\\android\\tfmobile\\res\\values\\template-styles.xml",
+                    "from": {
+                        "startLines": "24,20,22,27,29,34",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "805,684,748,889,920,1122",
+                        "endLines": "24,20,22,27,32,39",
+                        "endColumns": "51,60,53,27,12,12",
+                        "endOffsets": "852,740,797,912,1114,1400"
+                    },
+                    "to": {
+                        "startLines": "18,20,21,22,23,27",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "1112,1258,1318,1371,1398,1594",
+                        "endLines": "18,20,21,22,26,32",
+                        "endColumns": "50,59,52,26,12,12",
+                        "endOffsets": "1158,1313,1366,1393,1589,1867"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\HP\\tensorflow-for-poets-2\\android\\tfmobile\\res\\values\\template-dimens.xml",
+                    "from": {
+                        "startLines": "28,24,23,22,21,20,29",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "1000,917,872,826,782,739,1071",
+                        "endColumns": "69,42,43,44,42,41,67",
+                        "endOffsets": "1065,955,911,866,820,776,1134"
+                    },
+                    "to": {
+                        "startLines": "4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "295,365,408,452,497,540,582",
+                        "endColumns": "69,42,43,44,42,41,67",
+                        "endOffsets": "360,403,447,492,535,577,645"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\HP\\tensorflow-for-poets-2\\android\\tfmobile\\res\\values\\colors.xml",
+                    "from": {
+                        "startLines": "17",
+                        "startColumns": "4",
+                        "startOffsets": "676",
+                        "endColumns": "54",
+                        "endOffsets": "726"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "54",
+                        "endOffsets": "105"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\HP\\tensorflow-for-poets-2\\android\\tfmobile\\gradleBuild\\intermediates\\res\\merged\\debug\\values-v11_values-v11.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\HP\\tensorflow-for-poets-2\\android\\tfmobile\\res\\values-v11\\styles.xml",
+                    "from": {
+                        "startLines": "7,19,11",
+                        "startColumns": "2,2,2",
+                        "startOffsets": "217,782,351",
+                        "endLines": "9,21,17",
+                        "endColumns": "10,10,10",
+                        "endOffsets": "345,948,776"
+                    },
+                    "to": {
+                        "startLines": "2,5,8",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,186,355",
+                        "endLines": "4,7,14",
+                        "endColumns": "10,10,10",
+                        "endOffsets": "181,350,774"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\HP\\tensorflow-for-poets-2\\android\\tfmobile\\res\\values-v11\\template-styles.xml",
+                    "from": {
+                        "startLines": "19",
+                        "startColumns": "4",
+                        "startOffsets": "682",
+                        "endColumns": "65",
+                        "endOffsets": "743"
+                    },
+                    "to": {
+                        "startLines": "15",
+                        "startColumns": "4",
+                        "startOffsets": "779",
+                        "endColumns": "64",
+                        "endOffsets": "839"
+                    }
+                }
+            ]
+        }
+    ]
+}

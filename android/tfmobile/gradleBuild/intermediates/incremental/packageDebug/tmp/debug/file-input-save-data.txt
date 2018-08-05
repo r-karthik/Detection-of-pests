@@ -1,0 +1,31 @@
+#Internal package file, do not edit.
+#Mon Jul 30 16:21:57 KST 2018
+2.base=C\:\\Users\\HP\\tensorflow-for-poets-2\\android\\tfmobile\\gradleBuild\\intermediates\\transforms\\mergeJniLibs\\debug\\0
+5.set=DEX
+0.path=lib/armeabi-v7a/libtensorflow_inference.so
+2.baseType=DIRECTORY
+3.base=C\:\\Users\\HP\\tensorflow-for-poets-2\\android\\tfmobile\\gradleBuild\\intermediates\\assets\\debug
+2.set=NATIVE_RESOURCE
+1.path=labels.txt
+4.base=C\:\\Users\\HP\\tensorflow-for-poets-2\\android\\tfmobile\\gradleBuild\\intermediates\\transforms\\mergeJniLibs\\debug\\0
+count=7
+5.baseType=DIRECTORY
+2.path=lib/x86_64/libtensorflow_inference.so
+5.base=C\:\\Users\\HP\\tensorflow-for-poets-2\\android\\tfmobile\\gradleBuild\\intermediates\\transforms\\dexMerger\\debug\\51
+4.set=NATIVE_RESOURCE
+3.path=graph.pb
+6.base=C\:\\Users\\HP\\tensorflow-for-poets-2\\android\\tfmobile\\gradleBuild\\intermediates\\transforms\\mergeJniLibs\\debug\\0
+3.baseType=DIRECTORY
+1.set=ASSET
+4.path=lib/arm64-v8a/libtensorflow_inference.so
+6.set=NATIVE_RESOURCE
+1.baseType=DIRECTORY
+6.baseType=DIRECTORY
+5.path=classes.dex
+0.base=C\:\\Users\\HP\\tensorflow-for-poets-2\\android\\tfmobile\\gradleBuild\\intermediates\\transforms\\mergeJniLibs\\debug\\0
+0.baseType=DIRECTORY
+3.set=ASSET
+6.path=lib/x86/libtensorflow_inference.so
+1.base=C\:\\Users\\HP\\tensorflow-for-poets-2\\android\\tfmobile\\gradleBuild\\intermediates\\assets\\debug
+4.baseType=DIRECTORY
+0.set=NATIVE_RESOURCE
