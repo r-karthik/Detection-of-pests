@@ -113,14 +113,23 @@ model architecture.
     python -m scripts.label_image --graph=tf_files/retrained_graph.pb --image=tf_files/testing_dataset/image_name.jpg
     ```    
     ![image](https://github.com/r-karthik/images/blob/master/detection_of_pests/Capture2.JPG)
-7. If you want to run the model to predict on android device you have to opimize the retrained_graph.pb file so that the model can be compressible. Run the following commands which can compress the model upto 70%.
+ 
+7. If you want to run the model to predict on android device you have to opimize the model some of the methods for compressing the 
+model are:
+   * Freeze the Graph       : Converts Variables to Constants
+   * Graph Transform Tool   : Removes unnessary parts 
+   * Quantize Weights       : Quantizes weights & calculations
+   * quantize Calculations  : Converts 32-bit Floating point calculations to 8-bit Integer by maintaining decent Accuracy.
+   * Meamory Mapping        : uses Meamory mapping to load parameters instead of standard File I/O.
+   
+8. You can perform the optimization to the retrained_graph.pb file so that the model can be compressible by running the following commands which can compress the model upto 70%.
     ```shell
     #optimized graph
      python -m tensorflow.python.tools.optimize_for_inference --input=tf_files/retrained_graph.pb --output=tf_files/optimized_graph.pb --input_names="input" --output_names="final_result"
     #rounded graph
     python -m scripts.quantize_graph --input=tf_files/optimized_graph.pb --output=tf_files/graph.pb --output_node_names=final_result --mode=weights_rounded
     ```
-8. Paste the graph.pb & labels.txt in **android/tfmobile/assets** & open android studio choose existing project tfmobile. let the Gradle build finish & run your app. Now you can use your andoid mobile to classify things my using the App.
+9. Paste the graph.pb & labels.txt in **android/tfmobile/assets** & open android studio choose existing project tfmobile. let the Gradle build finish & run your app. Now you can use your andoid mobile to classify things my using the App.
 
 ![image](https://github.com/r-karthik/images/blob/master/detection_of_pests/sb.JPG)
 
