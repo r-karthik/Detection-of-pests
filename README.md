@@ -9,8 +9,8 @@ Asian University Machine Learning Camp Jeju 2018
     *  [Pre-requsites](#prerequsite)
     *  [Complete Workflow](#complete)
     *  [Steps to Follow](#steps)
-3. [Future Direction and Ideas](#future)
-4. [References](#ref)
+3. [References](#ref)
+4. [Acknowledgement](#ack)
 
 ## <a id="overview"> Overview/Motivation
 Agriculture is a most important and ancient occupation in India. As economy of India is based on agricultural production,
@@ -59,13 +59,10 @@ model architecture.
    
 ![image](https://github.com/r-karthik/images/blob/master/detection_of_pests/flowone.JPG)
 
-**Why to use pre-trained model when we can build new one??**
-*  Computation: Moderate
-*  Training: Faster
-*  Training Time: Minutes to Hours
-*  Accuracy: Good Depends on the pre-trained CNN model.
+### Why to use pre-trained model when we can build new one??
+![image](https://github.com/r-karthik/images/blob/master/detection_of_pests/cnn.JPG)
 
-**How does the pre-trained network works?**
+### How does the pre-trained network works?
 
 ![image](https://github.com/r-karthik/images/blob/master/detection_of_pests/transferlearningworkflow.png)
     
@@ -127,8 +124,6 @@ model architecture.
 
 ![image](https://github.com/r-karthik/images/blob/master/detection_of_pests/sb.JPG)
 
-## <a id="future"> Future Direction and Ideas
-
 
 ## <a id="ref"> References
 
@@ -141,3 +136,9 @@ model architecture.
 
 [4. https://www.researchgate.net/publication/322941653_Deep_learning_models_for_plant_disease_detection_and_diagnosis
 ](https://www.researchgate.net/publication/322941653_Deep_learning_models_for_plant_disease_detection_and_diagnosis)
+
+## <a id="ack"> Acknowledgement
+
+I would sincerely like to thank **Jeju National University**, **Jeju Development Center** & all the sponcers who have supported us for our work. And i would specially like to thank professor **Yungcheol Byun** for guiding us & helping us in every situation.
+
+![image](https://github.com/r-karthik/images/blob/master/detection_of_pests/camp.JPG)
